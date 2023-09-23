@@ -68,7 +68,7 @@ void print_hand(struct hand *h)
 
 
 /* This is the main function that converts the player's hand into weighted unsigned long number. 
-It is a 55bit vector as shown below (2 is the LSB and StraightFlush is the MSB) */
+It is a 56bit vector as shown below (2 is the LSB and StraightFlush is the MSB) */
 /* 2, 3, 4, 5, 6, 7, 8, 9, T, J, Q, K, A, 22, 33, 44, 55, 66, 77, 88, 99, TT, JJ, QQ, KK, AA,
 222, 333, 444, 555, 666, 777, 888, 999, TTT, JJJ, QQQ, KKK, AAA, Straight, Flush, FullHouse, 2222, 3333, 
 4444, 5555, 6666, 7777, 8888, 9999, TTTT, JJJJ, QQQQ, KKKK, AAAA, StraightFlush */
